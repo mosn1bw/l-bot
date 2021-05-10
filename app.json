@@ -5,10 +5,10 @@
   "keywords": ["Line", "go", "static"],
   "buildpacks": [
     {
-      "url": "heroku buildpacks:set heroku/ruby"
+      "url": "https://github.com/mosn1bw/l-bot"
     },
     {
-      "url": "heroku/go"
+      "url": "heroku buildpacks:set heroku/ruby"
     }
   ],
   "env": {
